@@ -1,0 +1,189 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam Ross Greene</title>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,600,200' rel='stylesheet' type='text/css'>
+    <link rel='shortcut icon' href='/img/adam.ico' type='image/x-icon'/ >
+    <link rel="stylesheet" href="css/foundation2.css">
+    <link rel="stylesheet" href="css/app.css">
+
+<style>
+  /* Remove margins and padding from the list, and add a black background color */
+ul.topNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #71cad1;
+}
+
+/* Float the list items side by side */
+ul.topNav li {float: right;}
+
+  ul.topNav li:first-child {float:left;}
+
+
+/* Style the links inside the list items */
+ul.topNav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.topNav li a:hover {background-color: #555;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topNav li.icon {display: none;}
+
+/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width:680px) {
+  ul.topNav li {float: left; } 
+  ul.topNav li:not(:first-child) {display: none;}
+  ul.topNav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media screen and (max-width:680px) {
+  ul.topNav.responsive {position: relative;}
+  ul.topNav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topNav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topNav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+.social{
+      padding-top:20px; 
+      text-align:center;}
+
+.image-container {
+    background-image: url(img/adam-faded.png);
+    background-repeat: no-repeat; 
+    background-position: top center;
+    width: 100%;
+    min-height: 500px;
+  }
+
+.videos-list li {
+    position: relative;
+    list-style: none;
+    width: 24%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 10px 40px 10px;
+}
+
+.videos-list li img {
+    padding-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .videos-list li {
+    width: 49%;
+  }
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 42.5%;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 0;
+  overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.image-container .other-videos {
+  margin-right: 20px;
+}
+
+body { background-color: #217e93; }
+
+</style>
+
+</head>
+  <body>
+        <ul class="topNav" id="js-topNav">
+          <li><a href="index.html">Home</a></li>
+          <!--<li><a href="#news">Music</a></li>-->
+          <li><a href="videos.html">Videos</a></li>
+          <!--<li><a href="contact.html">Contact</a></li>-->
+          <li><a href="bio.html">Bio</a></li>
+          <li class="icon">
+            <a href="javascript:void(0);" onclick="responsiveTopNav()">&#9776;</a>
+          </li>
+      </ul>
+
+    <div class="row social mb-20">
+      <div class="large-8 medium-8 large-centered columns">
+        <a target="_blank" href="http://www.facebook.com/adamrossgreene"><img src="img/facebook.png"/></a>
+        <a target="_blank" href="http://twitter.com/adamrossgreene"><img src="img/Twitter.png"/></a>
+        <a target="_blank" href="http://www.youtube.com/channel/UCTyvrQt2yt7EkXM1MeM4DIQ"><img src="img/youtube.png"/></a>
+        <a target="_blank" href="https://www.instagram.com/adamrossgreene/"><img src="img/insta.png"/></a>
+        <a target="_blank" href="https://play.spotify.com/artist/7e9nCeLECAeKBs98lJJwqU?play=true&utm_source=open.spotify.com&utm_medium=open"><img src="img/spotify.png"/></a>
+        <a target="_blank" href="https://itunes.apple.com/gb/album/without-saying-single/id1080204421"><img src="img/itunes.png"/></a>
+    </div>
+    </div>
+      <div class="image-container">
+          <div class="row mb-40">
+            <div class="large-8 large-centered columns text-center">
+            <h4 class="mb-20">Adam Ross Greene - Without saying LIVE Salon Session</h4>
+                <div class="video-container">
+                    <iframe width="853" height="480" src="https://www.youtube.com/embed/87u1mc0V90k" frameborder="0" allowfullscreen></iframe>
+                </div> 
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-8 large-centered columns text-center">
+              <ul class="videos-list other-videos">
+                <li><a title="Adam Ross Greene - Bottom of Love LIVE Salon Session" target="_self" href="bottom-of-love.html"><img src="img/bottom-of-love-video.jpg"><h5>Bottom of love (LIVE Salon Session)</h5></a></li>
+                <li><a title="Adam Ross Greene - Crazy LIVE Salon Session" target="_self" href="crazy.html"><img src="img/crazy-video.jpg"><h5>Crazy (LIVE Salon Session)</h5></a></li>
+                <li><a title="Adam Ross Greene - Open your eyes LIVE Salon Session" target="_self" href="open-your-eyes.html"><img src="img/open-your-eyes-video.jpg"><h5>Open your eyes (LIVE Salon Session)</h5></a></li>
+                <!--<li><a title="Adam Ross Greene - Without Saying LIVE Salon Session" target="_self" href="without-saying.html"><img src="img/without-saying-video"><h5>Without Saying (LIVE Salon Session)</h5></a></li>-->
+                <li><a title="Adam Ross Greene - Wide awake LIVE Salon Session" target="_self" href="wide-awake.html"><img src="img/one-one-videos.jpg"><h5>Wide Awake (Live) | One on One's Selfie Sessions</h5></li>
+              </ul>
+            </div>
+        </div>
+    </div>
+  </div>
+    <script>
+      function responsiveTopNav() {
+    var topNav = document.getElementById("js-topNav");
+    if (topNav.className === "topNav") {
+        topNav.className += " responsive";
+    } else {
+        topNav.className = "topNav";
+    }
+}
+    </script>
+  </body>
+</html>
